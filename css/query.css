@@ -1,0 +1,700 @@
+@media (max-width: 480px) {
+
+    nav {
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .nav__menu {
+        position: absolute;
+        background-color: #FFE551;
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        padding-top: 15px;
+        transition: 1s;
+    }
+
+    .nav__menu ul {
+        margin-top: 20px;
+        padding: 0.4rem 2rem;
+    }
+
+    .nav__menu ul li {
+        display: block;
+    }
+
+    .nav__menu ul li a {
+        font-family: "Montserrat";
+        font-weight: 500;
+        color: #5B5B5B;
+        font-size: 14px;
+    }
+
+     nav .fa {
+        display: block;
+        color: black;
+        margin-top: -10px;
+        margin-left: 10px; 
+        font-size: 16px;
+        cursor: pointer;
+    }  
+
+    #icon {
+        display: block;
+        color: #FFE551;
+    }
+
+    .nav__logo {
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    #arrowDown {
+        display: none;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .main__adewale h1 {
+        color: #FFE551;
+        font-family: "Supermercado One";
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 44px;
+        margin-left: 15px;
+        padding-top: 140px;
+    }
+
+    .main__adewale h1 span {
+        margin-left: 1em;
+    }
+
+    #line {
+        width: 189px;
+        margin-left: 1em;
+        margin-top: -40px;
+    }
+
+    .sideBar__content {
+        margin-left: 15px;
+        font-family: "Montserrat";
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .sideBar__content p {
+        color: white;
+        font-weight: 600;
+    }
+
+    .sideBar__content p span {
+        color: #FFE551;
+    }
+
+    .sideBar__content h6 {
+        color: white;
+        line-height: 27px;
+        font-weight: 400;
+    }
+
+    .sideBar__btn {
+        display: none;
+    }
+
+    .main_2 {
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main_2 h1 {
+        color: #5B5B5B;
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .main-3_image {
+        padding: 10px 0 30px 0;
+    }
+
+    .main-3_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    #saless {
+        display: none;
+    }
+
+    .salesss {
+        display: block;
+    }
+
+    .main-3_text h6 span {
+        display: inline-block;
+    }
+
+    .main-3_text {
+        font-family: "Montserrat";
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        color: #36413D;
+        padding-bottom: 12px;
+    }
+
+    .main-3_text p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .main-3_content {
+        display: block;
+    }
+
+    .main-3__content2 {
+        display: block;
+    }
+
+    
+    #caseStudy {
+        display: none;
+    }
+
+    .horizontals {
+        display: block;
+    }
+
+    .vertical {
+        display: none;
+    }
+
+    .__footer img {
+        float: right;
+        margin-top: -110px;
+        z-index: 0;
+    }
+
+    .__footer__content {
+        padding-top: 80px;
+    }
+
+    .__footer__content-1 h1{
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 42px;
+    }
+
+    .pii p {
+        margin-left: 0;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .__footer__content-2 {
+        display: flex;
+    } 
+
+    .__footer__content-2 {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-bottom: 90px;
+    }
+
+    .__footer__content-2Main {
+        display: block;
+    }
+    
+    .you {
+        margin-top: 80px;
+    }
+
+    #hori {
+        display: block;
+        margin-bottom: 29px;
+    }
+
+    #horiz {
+        display: none;
+    }
+
+    .forward {
+        display: none;
+    }
+} 
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    nav {
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .nav__menu {
+        position: absolute;
+        background-color: #FFE551;
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        padding-top: 15px;
+        transition: 1s;
+    }
+
+    .nav__menu ul {
+        margin-top: 20px;
+        padding: 0.4rem 2rem;
+    }
+
+    .nav__menu ul li {
+        display: block;
+    }
+
+    .nav__menu ul li a {
+        font-family: "Montserrat";
+        font-weight: 500;
+        color: #5B5B5B;
+        font-size: 14px;
+    }
+
+     nav .fa {
+        display: block;
+        color: black;
+        margin-top: -10px;
+        margin-left: 10px; 
+        font-size: 16px;
+        cursor: pointer;
+    }  
+
+    #icon {
+        display: block;
+        color: #FFE551;
+    }
+
+    .nav__logo {
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    #arrowDown {
+        display: none;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .main__adewale h1 {
+        color: #FFE551;
+        font-family: "Supermercado One";
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 44px;
+        margin-left: 15px;
+        padding-top: 140px;
+    }
+
+    .main__adewale h1 span {
+        margin-left: 1em;
+    }
+
+    #line {
+        width: 189px;
+        margin-top: 40px;
+        margin-left: -160px;
+        /* margin-top: -40px; */
+    }
+
+    .sideBar__content {
+        margin-left: 15px;
+        font-family: "Montserrat";
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .sideBar__content p {
+        color: white;
+        font-weight: 600;
+    }
+
+    .sideBar__content p span {
+        color: #FFE551;
+    }
+
+    .sideBar__content h6 {
+        color: white;
+        line-height: 27px;
+        font-weight: 400;
+    }
+
+    .sideBar__btn {
+        display: none;
+    }
+
+    .main_2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main_2 h1 {
+        color: #5B5B5B;
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .main-3_image {
+        padding: 30px 0 50px 0;
+    }
+
+    .main-3_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    #saless {
+        display: none;
+    }
+
+    .salesss {
+        display: block;
+    }
+
+    .main-3_text h6 span {
+        display: inline-block;
+    }
+
+    .main-3_text {
+        font-family: "Montserrat";
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        margin-top: -40px;
+        color: #36413D;
+        padding-bottom: 12px;
+    }
+
+    .main-3_text p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .main-3__content2 {
+        display: block;
+    }
+
+    .main-3_content {
+        display: block;
+    }
+
+    #caseStudy {
+        display: none;
+    }
+
+    .__footer img {
+        float: right;
+        margin-top: -110px;
+        z-index: 0;
+    }
+
+    .__footer__content {
+        padding-top: 80px;
+    }
+
+    .__footer__content-1 h1{
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 42px;
+    }
+
+    .pii p {
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .__footer__content-2 {
+        display: flex;
+    } 
+
+    .__footer__content-2 {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-bottom: 90px;
+    }
+
+    .__footer__content-2Main {
+        display: block;
+    }
+    
+    .you {
+        margin-top: 80px;
+    }
+
+    #hori {
+        display: block;
+        margin-bottom: 29px;
+    }
+
+    .horizontals {
+        display: block;
+    }
+
+    .vertical {
+        display: none;
+    }
+
+    #horiz {
+        display: none;
+    }
+
+    .forward {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    
+    .main {
+        justify-content: space-around;
+    }
+    
+    .main__adewale h1 {
+        position: absolute;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 79px;
+        margin-top: -100px;
+        margin-left: -370px;
+    }
+
+    .main__sideBar {
+        position: absolute;
+        margin-left: 570px;
+        margin-top: 10px;
+    }
+
+    .main__sideBar img {
+        height: 100px;
+        margin-bottom: 99px;
+    }
+
+    .sideBar__content p {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: white;
+    }
+
+    .sideBar__content h6 {
+        color: white;
+        font-family: "Montserrat";
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #line {
+        width: 250px;
+        margin-left: -250px;
+        /* margin-top: -80px; */
+    }
+
+    #saless {
+        height: auto;
+        width: 100%;
+    }
+
+    .main-3_content {
+        gap: 40px;
+    }
+
+    .main-3_text p {
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    #caseStudy > a {
+        font-size: 12px;
+    }
+
+    .__footer img {
+        float: right;
+    }
+    .pii p {
+        border: 2px solid blue;
+        margin-left: 100px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .__footer__content-1 h1{
+        border: 2px solid red;
+        display: flex;
+        justify-content: left;
+        font-weight: 500;
+        font-size: 64px;
+        margin-bottom: 80px;
+}
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .main {
+        justify-content: space-around;
+    }
+
+    .main__adewale h1 {
+        position: absolute;
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 79px;
+        margin-top: -100px;
+        margin-left: -390px;
+    }
+
+    .main__sideBar {
+        position: absolute;
+        margin-left: 670px;
+        margin-top: 30px;
+    }
+
+    .main__sideBar img {
+        height: 100px;
+        margin-bottom: 99px;
+    }
+
+
+    .sideBar__content p {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 25px;
+        color: white;
+    }
+
+    .sideBar__content h6 {
+        color: white;
+        font-family: "Montserrat";
+        font-weight: 100;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    #line {
+        width: 250px;
+        margin-left: -250px;
+    }
+
+    #saless {
+        height: auto;
+        width: 100%;
+    }
+
+    .main-3_text p {
+        font-size: 38px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
+    #caseStudy > a {
+        font-size: 16px;
+    }
+
+    .pii {
+        display: flex;
+        gap: 30px;
+    }
+
+    .pii p {
+        /* border: 2px solid blue; */
+        margin-left: -50px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .__footer__content-2Main {
+        gap: 120px;
+    }
+    
+    .__footer__content-2 {
+        gap: 120px;
+        margin-bottom: 90px;
+    }
+    
+}
+
+@media (min-width: 1201px) {
+    
+
+    .main__adewale h1 {
+        position: absolute;
+        font-size: 85px;
+        font-weight: 700;
+        line-height: 79px;
+        margin-top: -100px;
+        margin-left: 170px;
+    }
+
+    #line {
+        width: 350px;
+        margin-left: -350px;
+    }
+
+    .main__sideBar {
+        position: relative;
+        margin-top: 100px; 
+    }
+
+    .sideBar__content p {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .sideBar__content h6 {
+        color: white;
+        font-family: "Montserrat";
+        font-weight: 100;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .pii {
+        display: flex;
+        gap: 150px;
+    }
+
+    .pii p {
+        margin-left: -180px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 42px;
+    }
+}

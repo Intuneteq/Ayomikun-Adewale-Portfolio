@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+#adewale {
+    color: #FFE551;
+    font-weight: 700;
+}
+
+.land__ {
+    background-image: url(../images/blaq2.png);
+    background-position: left;
+    background-size: contain;  
+    background-repeat: no-repeat; 
+    margin-bottom: 110px;
+}
+
+
+.land__name h1 {
+    color: #FFE551;
+    font-family: 'Supermercado One';
+    font-weight: 500;
+    font-size: 84px;
+    line-height: 100px;
+
+    margin-left: 260px;
+    padding-top: 109px;
+}
+
+.land__name p {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+
+    margin-left: 480px;
+    margin-top: 30px;
+}
+
+#story p {
+    color: white ;
+}

@@ -1,0 +1,130 @@
+body {
+    background-color: #E5E5E5;
+}
+
+#adewale {
+    color: black;
+    font-weight: 700;
+}
+
+.Page__Content p {
+    color: #36413D;
+    font-family: "Montserrat";
+    font-size: 28px;
+    margin-top: 160px;
+    margin-bottom: 40px;
+}
+
+.Page__Content h1 {
+    color: #36413D;
+    font-family: "Montserrat";
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 72px;
+}
+
+/* Page 2 */
+
+.page__2 {
+    padding-top: 400px;
+}
+
+#case1 {
+    width: 100%;
+    height: auto;
+}
+
+.page__2 p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #36413D;
+}
+
+/* Page3 */
+
+.page_3 img{
+    width: 100%;
+    height: auto;
+}
+
+/* Page 4 */
+
+.page_4 {
+    margin-top: 120px;
+}
+
+.page_4__content {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Montserrat";
+    margin-bottom: 120px;
+}
+
+.support {
+    margin-top: 80px;
+}
+
+.page_4__content h6 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.page_4__content p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.page_4__content-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.page_4__content-2 img {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 120px;
+}
+
+#pic1 {
+    margin-top: 304px;
+}
+
+#pic2 {
+    margin-top: -150px;
+}
+
+#gap {
+    margin-top: -150px;
+}
+
+.mt-10 {
+    margin-top: 240px;
+}
+
+.imagez img {
+    width: 100%;
+    height: auto;
+}
+
+/* Page 5 */
+
+.page__5 img {
+    width: 100%;
+    height: auto;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+}

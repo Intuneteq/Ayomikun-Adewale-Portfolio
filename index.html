@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+    <title>AYOMIKUN</title>
+</head>
+<body>
+    
+    <!-- Header -->
+
+    <header>
+
+        <div class="container">
+            <nav>
+                <div class="nav__logo">Adewale Ayomikun</div>
+                <div class="nav__menu" id="navMenu">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="hide"><a href="index.html">Home</a><img src="images/Vector.svg" alt="alt" class="img-fluid"></li>
+                        <li class="hide"><a href="index2.html">Work</a><img src="images/Vector.svg" alt="alt" class="img-fluid"></li>
+                        <li class="hide"><a href="index3.html">My Story</a><img src="images/Vector.svg" alt="alt" class="img-fluid"></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" id="icon" onclick="showMenu()"></i>
+            </nav>
+            <div class="main">
+                <div class="main__adewale">
+                    <h1>
+                        Adewale <br>
+                        <span>Ayomikun<img src="images/line.svg" alt="alt" id="line"> </span>
+                        
+                    </h1>
+                    
+                </div>
+                <div class="main__sideBar">
+                    <img src="images/down-arrow-ylw.svg" alt="alt" id="arrowDown">
+                    <div class="sideBar__content">
+                        <p>
+                            I am a <span>designer</span> based <br>in <span>Finland</span>.
+                        </p>
+                        <h6>
+                            I help progressive business create 
+                            <br>websites and apps that help them 
+                            <br>bring their idea to life.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </header>
+
+    <!-- Header End -->
+    
+
+    <!-- Landing Page -->
+
+    <div class="container">
+        <div class="main_2">
+            <h1>Project</h1>
+            <img src="images/left-arrow-ylw.svg" alt="alt">
+        </div>
+    </div>
+    
+    <div>
+
+    <div class="main-3">
+
+        <div class="container">
+            <div class="main-3_content">
+                <div class="main-3_image">
+                    <img src="images/sale-img.png" alt="alt" class="salesss img-fluid">
+                    <img src="images/salesss-img.svg" alt="alt" id ="saless" class="img-fluid">
+             </div>
+                <div class="main-3_text">
+                    <h6>Blaq <span>-</span></h6>
+                    <p>
+                    Your Ultimate online<br>sneaker destination
+                    </p>
+                    <h5 id="caseStudy"><a href="#">OPEN CASE STUDY</a><img src="images/righTt-arrow.svg" alt="alt"></h5>
+                </div>
+            </div>
+
+            <div class="main-3__content2">
+                <div class="main-3_image">
+                    <img src="images/Transition 1.png" alt="alt">
+             </div>
+                <div class="main-3_text">
+                    <h6>Heath cover <span> -</span></h6>
+                    <p>
+                    Your Ultimate online<br>sneaker destination
+                    </p>
+                </div>
+            </div>
+        </div>
+         
+    </div>
+
+    <!-- Landing Page End -->
+   
+    <footer>
+        <div class="container">
+            <div class="__footer">
+                <img src="images/horinzontal-dots.svg" alt="alt" class="horizontals">
+                <img src="images/vertical-dots.svg" alt="alt" class="vertical">
+                <div class="__footer__content">
+                    <div class="__footer__content-1">
+                        <h1>Have an idea?</h1>
+                        <div class="pii">
+                            <p>
+                                Tell me about it, I am able to dive into the chaos<br>
+                                of your ideas with you and help find a pathway<br>
+                                and solution to bringing your idea to life.
+                            </p>  
+                            <img src="images/Forward.svg" alt="alt" class="forward">
+                            <img src="images/red gmail.svg" alt="alt" class="forward">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="__footer__content-2Main">
+                <div class="__footer__content-2 you">
+                    <img src="images/Gmail.svg" alt="alt">
+                    <img src="images/Twitter.svg" alt="alt">
+                    <img src="images/be.svg" alt="alt">
+                </div>
+    
+                <div class="__footer__content-2">
+                    <img src="images/In.svg" alt="alt">
+                    <img src="images/Instagram.svg" alt="alt">
+                    <img src="images/facebook.svg" alt="alt">
+                </div>
+    
+            </div>                
+            
+            <img src="images/hori.svg" alt="alt" id="hori">
+            <img src="images/horinzon-dots.svg" alt="alt" id="horiz">
+        
+        </div>
+    </footer>
+    
+
+                            <!-- js -->
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+    <script>
+
+        let navMenu = document.getElementById("navMenu");
+
+        function showMenu() {
+            navMenu.style.right = "0"
+        }
+
+        function hideMenu() {
+            navMenu.style.right = "-200px"
+        }
+
+    </script>
+    </body>
+</html>
