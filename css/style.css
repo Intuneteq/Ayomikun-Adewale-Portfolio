@@ -32,10 +32,27 @@ nav {
     color: #FFE551;
     font-family: 'Roboto';
     font-weight: 700;
+    cursor: pointer;
+    animation: movedown 2s cubic-bezier(0, .9, .3, 1.2) 1;
+    animation-delay: .1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes movedown {
+    0% {
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    100% {
+        transform: translateY(0);
+        visibility: visible;
+    }
 }
 
 .nav__menu ul {
     padding-top: 2.5em;
+    animation-delay: 1s;
 }
 
 .nav__menu ul li {
@@ -79,7 +96,20 @@ nav .fa {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
+
+
+/* @keyframes fade-slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+} */
 
 /* might work */
 
@@ -268,9 +298,39 @@ nav .fa {
     display: none;
 }
 
+
+
 /* Footer End */
 
+.animate-pop-in {
+    animation: pop-in .6s cubic-bezier(0, .9, .3, 1.2) forwards;
+    opacity: 0;
+}
 
-/* Media    Query */
+.ade{
+    animation-delay: .4s;
+}
 
+#arrowDown{
+    animation-delay: .6s;
+}
+
+.sideBar__content {
+    animation-delay: .8s;
+}
+
+
+/* key frames */
+
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
 
