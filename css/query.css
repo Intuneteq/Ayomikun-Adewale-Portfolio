@@ -1,5 +1,9 @@
 @media (max-width: 480px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     nav {
         padding: 20px;
         margin-bottom: 50px;
@@ -217,7 +221,7 @@
         padding-left: 0;
         margin-bottom: 20px;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 27px;
     }
 
