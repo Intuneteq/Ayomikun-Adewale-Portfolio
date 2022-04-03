@@ -17,6 +17,10 @@
         line-height: 15px;
         font-weight: 600;
     }
+
+    .page_4 {
+        margin-top: 60px;
+    }
     
     .page_4__content {
         display: block;
@@ -37,6 +41,7 @@
 
     .page_4__content-2 {
         display: block;
+        margin-top: -50px;
     }
 
     .page_4__content-2 img {

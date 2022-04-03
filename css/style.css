@@ -71,9 +71,6 @@ nav .fa {
 /* Landing Page */
 
 .main {
-    display: flex;
-    justify-content:center;
-    align-items: center;
     height: 100vh;
     width: 100%;
     background-image: url('../images/Blaq.png');
@@ -82,35 +79,39 @@ nav .fa {
     background-position: center;
 }
 
+/* might work */
+
+.pt-10 {
+    padding-top: 11em;
+    padding-left: 3em;
+}
+
+.ps-10 {
+    padding-top: 10em;
+    padding-left: 22em;
+    font-size: 10px;
+}
+
+/* might work */
+
 .main__adewale h1 {
     color: #FFE551;
     font-family: "Supermercado One";
     font-size: 72px;
     font-weight: 600;
     line-height: 79px;
-    margin-left: 85px;
-    margin-top: -70px;
-}
 
-.main__adewale h1 span {
-    margin-left: 1em;
 }
 
 #line {
     width: 340px;
-    margin-top: 70px;
-    margin-left: -290px;
+    margin-top: -50px; 
 }
 
 .main__sideBar {
     display: block;
-    margin-top: 20px;
-    margin-left: auto;
 }
 
-.main__sideBar img {
-    margin-bottom: 99px;
-}
 
 .sideBar__content p {
     font-family: "Montserrat";
@@ -222,7 +223,7 @@ nav .fa {
 }
 
 .pii p {
-    margin-left: -100px;
+    padding-left: 170px;
     margin-bottom: 50px;
     font-weight: 400;
     font-size: 28px;
