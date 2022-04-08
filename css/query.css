@@ -178,6 +178,14 @@
         line-height: 23px;
     }
 
+    #sneak {
+        margin-left: -25px;
+    }
+
+    #sneaka {
+        margin-left: -75px;
+    }
+
     .main-3_content {
         display: block;
     }
@@ -426,6 +434,14 @@
     .main-3_text p {
         font-size: 16px;
         line-height: 23px;
+    }
+
+    #sneak {
+        margin-left: -25px;
+    }
+
+    #sneaka {
+        margin-left: -75px;
     }
 
     .main-3__content2 {

@@ -1,5 +1,9 @@
 body {
-    background-color: #E5E5E5;
+    background-color: #F0F9F6;
+}
+
+#icon {
+    color: black;
 }
 
 #adewale {
@@ -26,15 +30,20 @@ body {
 /* Page 2 */
 
 .page__2 {
-    padding-top: 400px;
+    padding-top: 104px;
+}
+
+.runners {
+    margin: -70px 0;
 }
 
 #case1 {
     width: 100%;
     height: auto;
+    margin-bottom: 139px;
 }
 
-.page__2 p {
+/* .page__2 p {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -43,7 +52,7 @@ body {
     font-size: 24px;
     line-height: 36px;
     color: #36413D;
-}
+} */
 
 /* Page3 */
 
