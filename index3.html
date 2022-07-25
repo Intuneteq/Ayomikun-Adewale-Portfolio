@@ -157,14 +157,17 @@
 
         let navMenu = document.getElementById("navMenu");
 
+        navMenu.style.display = "none";
+
         function showMenu() {
+            navMenu.style.display = "initial";
             navMenu.style.right = "0"
         }
 
         function hideMenu() {
-            navMenu.style.right = "-200px"
+            navMenu.style.display = "none"
         }
-
+        
     </script>
 </body>
 </html>
