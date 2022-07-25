@@ -746,3 +746,9 @@
         line-height: 42px;
     }
 }
+
+@media screen and (min-width: 900px) {
+    #navMenu {
+        display: initial !important;
+    }
+}
